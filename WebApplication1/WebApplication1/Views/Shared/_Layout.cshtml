@@ -1,0 +1,205 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SAGALASSOS</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <link href="img/favicon.ico" rel="icon">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik&display=swap" rel="stylesheet">
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <link href="~/Content/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="~/Content/css/style.css" rel="stylesheet">
+    <link href="~/kaynak/css/deneme.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Header Start -->
+    <div class="container-fluid bg-dark px-0">
+        <div class="row gx-0">
+            <div class="col-lg-3 bg-dark d-none d-lg-block">
+                <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                    <h1 class="m-0 display-4 text-primary text-uppercase">SAGALASSOS</h1>
+                </a>
+            </div>
+            <div class="col-lg-9">
+                <div class="row gx-0 bg-secondary d-none d-lg-flex">
+                    <div class="col-lg-7 px-5 text-start">
+                        <div class="h-100 d-inline-flex align-items-center py-2 me-4">
+                            <i class="fa fa-envelope text-primary me-2"></i>
+                            <h6 class="mb-0">info@sagalassos.com.tr</h6>
+                        </div>
+                        <div class="h-100 d-inline-flex align-items-center py-2">
+                            <i class="fa fa-phone-alt text-primary me-2"></i>
+                            <h6 class="mb-0">+90 555 423 49 13</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 px-5 text-end">
+                        <div class="d-inline-flex align-items-center py-2">
+                            <a class="btn btn-light btn-square rounded-circle me-2" href="">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="btn btn-light btn-square rounded-circle me-2" href="">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+
+                            <a class="btn btn-light btn-square rounded-circle me-2" href="">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a class="btn btn-light btn-square rounded-circle" href="">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0 px-lg-5">
+                    <a href="index.html" class="navbar-brand d-block d-lg-none">
+                        <h1 class="m-0 display-4 text-primary text-uppercase">Sagalassos</h1>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav mr-auto py-0">
+                            <a href="@Url.Action("Index","Default")" class="nav-item nav-link active">Home</a>
+                            <a href="@Url.Action("AboutUs","Default")" class="nav-item nav-link">About Us</a>
+
+                            <div class="nav-item">
+                                <div class="dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" id="dropdownMenuLink" aria-haspopup="true" aria-expanded="false">Products</a>
+                                    <div class="dropdown-menu rounded-0 m-0" aria-labelledby="dropdownMenuLink">
+                                        <a href="@Url.Action("Fınger","Default")" class="dropdown-item">Finger Jointed Panel</a>
+                                        <a href="@Url.Action("Timber","Default")" class="dropdown-item">Timber</a>
+                                        <a href="@Url.Action("Pallet","Default")"  class="dropdown-item">Pallet</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <a href="@Url.Action("Contact","Default")" class="nav-item nav-link">Contact</a>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+            </div>
+            </div>
+       
+    
+    <!-- Header End -->
+@RenderBody()
+
+    <div class="">
+        <iframe class="w-100"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25224.29814930992!2d30.534334553528257!3d37.78916635441959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c5b5bf97d1cd2f%3A0x21d03dfdec5fd752!2sIsparta%20Ticaret%20Ve%20Sanayi%20Odas%C4%B1!5e0!3m2!1str!2str!4v1685902201136!5m2!1str!2str"
+                style="height: 500px; width:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+    </div>
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-secondary px-5 mt-5">
+        <div class="row gx-5">
+            <div class="col-lg-8 col-md-6">
+                <div class="row gx-5">
+                    <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                        <h4 class="text-uppercase text-light mb-4">Get In Touch</h4>
+                        <div class="d-flex mb-2">
+                            <i class="bi bi-geo-alt text-primary me-2"></i>
+                            <p class="mb-0">
+                                Isparta Ticaret Ve Sanayi Odası
+                                Çünür, Süleyman Demirel Bulvarı, 102. Cadde Isparta Ekonomi Kampüsü No:185, 32100 Merkez/Isparta Merkez/Isparta
+                            </p>
+                        </div>
+                        <div class="d-flex mb-2">
+                            <i class="bi bi-envelope-open text-primary me-2"></i>
+                            <p class="mb-0">info@sagalassos.com.tr</p>
+                        </div>
+                        <div class="d-flex mb-2">
+                            <i class="bi bi-telephone text-primary me-2"></i>
+                            <p class="mb-0"> +90 555 423 49 13</p>
+                        </div>
+                        <div class="d-flex mt-4">
+                            <a class="btn btn-primary btn-square rounded-circle me-2" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-primary btn-square rounded-circle me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+
+                            <a class="btn btn-primary btn-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                        <h4 class="text-uppercase text-light mb-4">Quick Links</h4>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                            <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+
+                            <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Products</a>
+                            <a class="text-secondary" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                        <h4 class="text-uppercase text-light mb-4">Popular Links</h4>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                            <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+
+                            <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Products</a>
+                            <a class="text-secondary" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+        </div>
+
+    </div>
+    
+    <div class="container-fluid py-4 py-lg-0 px-5" style="background: #111111;">
+        <div class="row gx-5">
+
+            <div class="py-lg-4 text-center">
+                <p class="text-secondary mb-0">&copy; <a class="text-light fw-bold" href="#">2023 Copyright Sagalassos- TMK Mühendislik</a></p>
+            </div>
+        </div>
+        <div class="col-lg-4">
+
+
+        </div>
+    </div>
+   
+    <!-- Footer End -->
+    <!-- JavaScript Libraries -->
+    <script src="~/Content/https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="~/Content/https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Content/lib/easing/easing.min.js"></script>
+    <script src="~/Content/lib/waypoints/waypoints.min.js"></script>
+    <script src="~/Content/lib/counterup/counterup.min.js"></script>
+    <script src="~/Content/lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
